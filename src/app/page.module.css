@@ -1,8 +1,38 @@
-.main {
- display: flex;
- flex-direction: column;
- justify-content: space-between;
- align-items: center;
- padding: 6rem;
- min-height: 100vh;
+/* 
+
+.body {
+    margin:0 auto;
+    max-width: 640px;
+}
+
+.projectName {
+    color: rgb(10, 52, 10);
+}
+
+.articleHeaderContent {
+    color: rgb(10, 52, 10);
+}
+
+.articleHeader {
+    background-color: aquamarine;
+    height: 200px;
+    padding: 200px 0px 200px 0px;
+    background-size: cover;
+}
+
+.articleHeader h1 {
+
+} */
+
+.articleWrapper {
+    padding: 20px 150px 20px 150px;
+}
+
+.articleHeader {
+    height: 200px;
+    background-size: cover;
+}
+
+.articleBody {
+    
 }
