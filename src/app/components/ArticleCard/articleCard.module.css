@@ -1,13 +1,15 @@
 .projectName {
-    color: aquamarine;
+    color: rgb(30, 109, 30);
+    margin-left: 100px;
 }
+
 .articleCard {
-    border: 5px solid rgb(23, 36, 21);
+    border: 5px solid rgb(20, 62, 17);
     border-radius: 15px;
     padding: 20px; 
     display: flex;
     margin: 50px;
-    background-color: rgb(255, 254, 234);
+    background-color: rgb(30, 109, 30);
 }
 
 .articleCardImage {
@@ -24,11 +26,21 @@
 }
 
 .articleCardContent {
+    color: white;
     padding-left: 15px;
     align-items: left;
     justify-content: center;
     display: flex;
     flex-direction: column;
 }
+
+.articleCardLink {
+    color: white;
+}
+
+.articleCardLink:hover {
+    color:rgb(20, 62, 17);
+}
+
 
 

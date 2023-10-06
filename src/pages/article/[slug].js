@@ -12,6 +12,10 @@ export default function Article() {
     if (!articleData) return null;
 
     return (
+        <>
+        <head>
+            <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet" />
+        </head>
         
         <main>
             <div 
@@ -40,12 +44,9 @@ export default function Article() {
                                 }
                             }
                         )}
-
-
-
-
                 </div>
             </div>
         </main>
+        </>
     );
 }
